@@ -105,5 +105,5 @@ if __name__ == "__main__":
                 else:
                     assert len(args.input) == 1, "Please specify a directory with args.output"
                     out_filename = args.output
-                instances['pred_masks'].save(out_filename)
+                print(instances['pred_masks'])
                 visualized_output.save(out_filename)
